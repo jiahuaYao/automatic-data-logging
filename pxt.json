@@ -1,0 +1,31 @@
+{
+    "name": "automatic data logging",
+    "description": "",
+    "dependencies": {
+        "core": "*",
+        "radio": "*",
+        "microphone": "*",
+        "datalogger": "*"
+    },
+    "files": [
+        "main.blocks",
+        "main.ts",
+        "README.md",
+        "main.py"
+    ],
+    "testFiles": [
+        "test.ts"
+    ],
+    "targetVersions": {
+        "branch": "v4.1.47",
+        "tag": "v4.1.47",
+        "commits": "https://github.com/microsoft/pxt-microbit/commits/ded20b240421669bf63d2feb0ba42d442e1a98f9",
+        "target": "5.0.6",
+        "pxt": "7.5.45",
+        "targetId": "microbit"
+    },
+    "supportedTargets": [
+        "microbit"
+    ],
+    "preferredEditor": "blocksprj"
+}
